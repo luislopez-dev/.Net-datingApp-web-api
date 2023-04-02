@@ -47,8 +47,8 @@ public static class IdentityServiceExtensions
             });
         services.AddAuthorization(opt =>
         {
-            opt.AddPolicy("RequireAdminRole", policy => policy.RequireClaim("AdminRole"));
-            opt.AddPolicy("ModeratePhotoRole", policy => policy.RequireClaim("AdminRole", "Moderator"));
+            opt.AddPolicy("RequireAdminRole", policy => policy.RequireClaim("Admin"));
+            opt.AddPolicy("ModeratePhotoRole", policy => policy.RequireClaim("Admin", "Moderator"));
         });
         return services;
     }

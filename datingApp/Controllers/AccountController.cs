@@ -56,10 +56,10 @@ public class AccountController : BaseApiController
         var user = _mapper.Map<AppUser>(registerDto);
 
         user.UserName = registerDto.Username.ToLower();
-
+/*
         _dataContext.Users.Add(user);
         await _dataContext.SaveChangesAsync();
-
+*/
         var result = await _userManager.CreateAsync(user, registerDto.Password);
 
         if (!result.Succeeded) return BadRequest(result.Errors);

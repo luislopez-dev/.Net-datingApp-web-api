@@ -1,4 +1,4 @@
-//© 2023 Luis René López Hernández (https://github.com/luislopez-dev). All rights reserved
+// © 2023 Luis René López Hernández (https://github.com/luislopez-dev). All rights reserved
 using System.Text;
 using datingApp.Data;
 using datingApp.Entities;
@@ -29,6 +29,8 @@ builder.Services.AddIdentityServices(builder.Configuration);
 
 builder.Services.AddEndpointsApiExplorer();
 builder.Services.AddSwaggerGen();
+
+// Configure the HTTP request pipeline
 
 var app = builder.Build();
 app.UseMiddleware<ExceptionMiddleware>();

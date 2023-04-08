@@ -5,6 +5,7 @@ using Microsoft.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
 
 namespace datingApp.Data;
+
 public class DataContext : IdentityDbContext<AppUser, AppRole, int, IdentityUserClaim<int>, 
 AppUserRole, IdentityUserLogin<int>, IdentityRoleClaim<int>, IdentityUserToken<int>>
 {

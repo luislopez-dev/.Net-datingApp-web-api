@@ -2,6 +2,8 @@
 Microsoft Visual Studio Solution File, Format Version 12.00
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "datingApp", "datingApp\datingApp.csproj", "{32341102-8A2F-45B0-83E8-B87DCC673753}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "clone1", "clone1\clone1.csproj", "{E43D98E1-E2C8-43DA-834B-87C46D2ED398}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -12,5 +14,9 @@ Global
 		{32341102-8A2F-45B0-83E8-B87DCC673753}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{32341102-8A2F-45B0-83E8-B87DCC673753}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{32341102-8A2F-45B0-83E8-B87DCC673753}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E43D98E1-E2C8-43DA-834B-87C46D2ED398}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E43D98E1-E2C8-43DA-834B-87C46D2ED398}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E43D98E1-E2C8-43DA-834B-87C46D2ED398}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E43D98E1-E2C8-43DA-834B-87C46D2ED398}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 EndGlobal

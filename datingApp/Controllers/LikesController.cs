@@ -3,6 +3,7 @@ using datingApp.Entities;
 using datingApp.Extensions;
 using datingApp.Helpers;
 using datingApp.Interfaces;
+using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Mvc;
 
 namespace datingApp.Controllers

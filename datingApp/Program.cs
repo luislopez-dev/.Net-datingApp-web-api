@@ -30,6 +30,8 @@ builder.Services.AddIdentityServices(builder.Configuration);
 builder.Services.AddEndpointsApiExplorer();
 builder.Services.AddSwaggerGen();
 
+// Configure the HTTP request pipeline
+
 var app = builder.Build();
 app.UseMiddleware<ExceptionMiddleware>();
 

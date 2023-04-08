@@ -36,6 +36,7 @@ AppUserRole, IdentityUserLogin<int>, IdentityRoleClaim<int>, IdentityUserToken<i
             .HasForeignKey(user => user.RoleId)
             .IsRequired();
         
+        
         builder.Entity<UserLike>()
         .HasKey(key => new { key.SourseUserId, key.TargetUserId});
 
@@ -51,6 +52,8 @@ AppUserRole, IdentityUserLogin<int>, IdentityRoleClaim<int>, IdentityUserToken<i
         .HasForeignKey(source => source.TargetUserId)
         .OnDelete(DeleteBehavior.NoAction);
 
+        
+        
         builder.Entity<Message>()
             .HasOne(user => user.Recipient)
             .WithMany(message => message.MessagesReceived)

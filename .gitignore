@@ -3,4 +3,6 @@ obj/
 /packages/
 riderModule.iml
 /_ReSharper.Caches/
-datingApp/appsettings.json 
+appsettings.json 
+NetFramework/
+NetFrameworkUnitTests/

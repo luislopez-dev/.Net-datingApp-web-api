@@ -4,9 +4,13 @@ using clone1.Data;
 using clone1.DTOs;
 using clone1.Entities;
 using clone1.Extensions;
+using clone1.Helpers.Pagination;
+using clone1.Helpers.Pagination.Params;
 using clone1.Interfaces;
+using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.EntityFrameworkCore;
+using Microsoft.IdentityModel.Tokens;
 
 namespace clone1.Controllers;
 
@@ -14,46 +18,54 @@ public class UsersController : BaseApiController
 {
     private readonly DataContext _context;
     private readonly IMapper _mapper;
-    private readonly IUserRepository _userRepository;
+    private readonly IUnitOfWork _unitOfWork;
 
-    public UsersController(DataContext context, IMapper mapper, IUserRepository userRepository)
+    public UsersController(DataContext context, IMapper mapper, IUnitOfWork unitOfWork)
     {
         _context = context;
         _mapper = mapper;
-        _userRepository = userRepository;
+        _unitOfWork = unitOfWork;
     }
-    
-    [HttpGet]
-    public async Task<ActionResult<IEnumerable<MemberDto>>> GetUsers()
-    {
-        /*
-        var users = await _context.Users.ToListAsync();
-        var usersToReturn = _mapper.Map<IEnumerable<MemberDto>>(users);
-        return Ok(usersToReturn);
-        */
 
-        var users= await _context.Users
-            .ProjectTo<MemberDto>(_mapper.ConfigurationProvider)
-            .ToListAsync();
-        return users;
+    [Authorize(Roles = "Member")]
+    [HttpGet]
+    public async Task<ActionResult<PagedList<MemberDto>>> GetUsers([FromQuery] UserParams userParams)
+    {
+        var gender = await _unitOfWork.UserRepository.GetUserGenderAsync(User.GetUserName());
+
+        if (string.IsNullOrEmpty(userParams.Gender))
+        {
+            userParams.Gender = gender == "male" ? "female" : "male";
+        }
+        
+        userParams.CurrentUserName = User.GetUserName();
+        
+        var users = await _unitOfWork.UserRepository.GetMembersAsync(userParams);
+        
+        Response.AddPaginationHeader(new PaginationHeader(
+            users.TotalPages, users.CurrentPage,
+            users.PageSize, users.TotalItems
+            ));
+        
+        return Ok(users);
     }
 
     [HttpGet("{username}")]
     public async Task<ActionResult<MemberDto>> GetUser(string username)
     {
-        return await _userRepository.GetMemberAsync(username);
+        return await _unitOfWork.UserRepository.GetMemberAsync(username);
     }
     
     [HttpPut]
     public async Task<ActionResult> UpdateUser(UpdateMemberDto updateMemberDto)
     {
-        var user = await _userRepository.GetUserByUsernameAsync(User.GetUserName());
+        var user = await _unitOfWork.UserRepository.GetUserByUsernameAsync(User.GetUserName());
         if (user == null)
         {
             return NotFound();
         }
         _mapper.Map(updateMemberDto, user);
-        if (await _userRepository.SaveAllAsync())
+        if (await _unitOfWork.CompleteAsync())
         {
             return NoContent();
         }

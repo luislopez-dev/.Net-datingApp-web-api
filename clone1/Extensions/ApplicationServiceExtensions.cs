@@ -1,4 +1,5 @@
 ﻿using clone1.Data;
+using clone1.Helpers;
 using clone1.Interfaces;
 using clone1.Repositories;
 using clone1.Services;
@@ -16,8 +17,9 @@ public static class ApplicationServiceExtensions
             opt.UseSqlServer(config.GetConnectionString("datingApp"));
         });
         services.AddAutoMapper(AppDomain.CurrentDomain.GetAssemblies());
-        services.AddScoped<IUserRepository, UserRepository>();
+        services.AddScoped<IUnitOfWork, UnitOfWork>();
         services.AddScoped<ITokenService, TokenService>();
+        services.AddScoped<LogUserActivity>();
         return services;
     }
 }

@@ -60,9 +60,10 @@ public class UserRepository : IUserRepository
         };
 
         return await PagedList<MemberDto>.CreateAsync(
-            query.AsNoTracking().ProjectTo<MemberDto>(_mapper.ConfigurationProvider), 
+            query.AsNoTracking().ProjectTo<MemberDto>(_mapper.ConfigurationProvider),
             userParams.PageNumber, 
-            userParams.PageSize);
+            userParams.PageSize
+            );
     }
 
     public async Task<MemberDto> GetMemberAsync(string username)

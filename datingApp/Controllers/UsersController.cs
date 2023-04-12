@@ -36,9 +36,12 @@ public class UsersController : BaseApiController
         }
         
         var users = await _uoWork.UserRepository.GetMembersAsync(userParams);
-        Response.AddPaginationHeader(new PaginationHeader(
-            users.CurrentPage, users.PageSize, 
-            users.TotalCount, users.TotalPages));
+        
+        Response.AddPaginationHeader(
+            new PaginationHeader(users.CurrentPage, users.PageSize, 
+                users.TotalCount, users.TotalPages)
+            );
+        
         return Ok(users);
     }
 
@@ -136,11 +139,5 @@ public class UsersController : BaseApiController
         user.Photos.Remove(photo);
         if (await _uoWork.Complete()) return Ok();
         return BadRequest("Problem uploading your photo");
-    }
-    
-    [HttpPost("test")]
-    public async Task<AppUser> GetPhotos()
-    {
-        return await _uoWork.UserRepository.GetUserByUserNameAsync(User.GetUsername());
     }
 }

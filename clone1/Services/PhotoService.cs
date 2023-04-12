@@ -1,10 +1,10 @@
-﻿using CloudinaryDotNet;
+﻿using clone1.Config;
+using clone1.Interfaces;
+using CloudinaryDotNet;
 using CloudinaryDotNet.Actions;
-using datingApp.Config;
-using datingApp.Interfaces;
 using Microsoft.Extensions.Options;
 
-namespace datingApp.Services;
+namespace clone1.Services;
 
 public class PhotoService : IPhotoService
 {
@@ -24,23 +24,23 @@ public class PhotoService : IPhotoService
     public async Task<ImageUploadResult> AddPhotoAsync(IFormFile file)
     {
         var uploadResult = new ImageUploadResult();
+        await using var stream = file.OpenReadStream();
         if (file.Length > 0)
         {
-            await using var stream = file.OpenReadStream();
             var uploadParams = new ImageUploadParams
             {
-                File = new FileDescription(file.FileName, stream),
+                File = new FileDescription(file.Name, stream),
                 Transformation = new Transformation().Height(500).Width(500).Crop("fill").Gravity("face"),
-                Folder = "da-new6"
+                Folder = "social media"
             };
             uploadResult = await _cloudinary.UploadAsync(uploadParams);
         }
         return uploadResult;
     }
 
-    public async Task<DeletionResult> DeletePhotoAsync(string publicId)
+    public async Task<DeletionResult> DeletePhotoAsync(string publicUrl)
     {
-        var deleteParams = new DeletionParams(publicId);
+        var deleteParams = new DeletionParams(publicUrl);
         return await _cloudinary.DestroyAsync(deleteParams);
     }
 }

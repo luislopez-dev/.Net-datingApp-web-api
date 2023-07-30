@@ -4,8 +4,6 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "datingApp", "datingApp\dati
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "clone1", "clone1\clone1.csproj", "{E43D98E1-E2C8-43DA-834B-87C46D2ED398}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "test", "test\test.csproj", "{999C2E38-69BE-406E-9C65-3FFB7A6DEF75}"
-EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -20,9 +18,5 @@ Global
 		{E43D98E1-E2C8-43DA-834B-87C46D2ED398}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{E43D98E1-E2C8-43DA-834B-87C46D2ED398}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{E43D98E1-E2C8-43DA-834B-87C46D2ED398}.Release|Any CPU.Build.0 = Release|Any CPU
-		{999C2E38-69BE-406E-9C65-3FFB7A6DEF75}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{999C2E38-69BE-406E-9C65-3FFB7A6DEF75}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{999C2E38-69BE-406E-9C65-3FFB7A6DEF75}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{999C2E38-69BE-406E-9C65-3FFB7A6DEF75}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 EndGlobal

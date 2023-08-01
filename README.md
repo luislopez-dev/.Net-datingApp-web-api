@@ -1,4 +1,4 @@
-## Software Architecture 
+## Software Architecture (pending)
 
 ![image5-7](https://github.com/luislopez-dev/.Net-social-network-rest-api/assets/48783255/f4e5bf17-94f2-470e-9084-3cca46a65aeb)
 

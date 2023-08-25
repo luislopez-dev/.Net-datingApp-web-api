@@ -24,4 +24,10 @@
       <_ContentIncludedByDefault Remove="Data\Seeds\users.json" />
     </ItemGroup>
 
+    <ItemGroup>
+      <Folder Include="API\" />
+      <Folder Include="Core\" />
+      <Folder Include="Infrastructure\" />
+    </ItemGroup>
+
 </Project>

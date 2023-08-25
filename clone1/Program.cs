@@ -1,7 +1,8 @@
+using clone1.API.Extensions;
+using clone1.API.Middleware;
+using clone1.Core.Entities;
 using clone1.Data;
-using clone1.Entities;
-using clone1.Extensions;
-using clone1.Middleware;
+using clone1.Infrastructure.Data;
 using Microsoft.AspNetCore.Identity;
 using Microsoft.EntityFrameworkCore;
 

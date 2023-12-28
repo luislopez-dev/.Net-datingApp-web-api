@@ -1,4 +1,9 @@
-﻿namespace datingApp.Config;
+﻿﻿/*
+ * Author: Luis López
+ * Website: https://github.com/luislopez-dev
+ * Description: Training Project
+ */
+namespace datingApp.Config;
 
 public class CloudinarySettings
 {

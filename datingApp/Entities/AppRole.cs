@@ -1,4 +1,9 @@
-﻿using Microsoft.AspNetCore.Identity;
+﻿﻿/*
+ * Author: Luis López
+ * Website: https://github.com/luislopez-dev
+ * Description: Training Project
+ */
+using Microsoft.AspNetCore.Identity;
 
 namespace datingApp.Entities;
 

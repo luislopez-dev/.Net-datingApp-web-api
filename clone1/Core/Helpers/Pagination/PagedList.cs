@@ -1,4 +1,9 @@
-﻿using Microsoft.EntityFrameworkCore;
+﻿﻿/*
+ * Author: Luis López
+ * Website: https://github.com/luislopez-dev
+ * Description: Training Project
+ */
+using Microsoft.EntityFrameworkCore;
 
 namespace clone1.Core.Helpers.Pagination;
 

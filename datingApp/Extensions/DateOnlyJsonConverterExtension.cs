@@ -1,4 +1,9 @@
-﻿using System.Globalization;
+﻿﻿/*
+ * Author: Luis López
+ * Website: https://github.com/luislopez-dev
+ * Description: Training Project
+ */
+using System.Globalization;
 using Newtonsoft.Json;
 
 namespace datingApp.Extensions;

@@ -1,4 +1,10 @@
-﻿using CloudinaryDotNet;
+﻿﻿/*
+ * Author: Luis López
+ * Website: https://github.com/luislopez-dev
+ * Description: Training Project
+ */
+ 
+using CloudinaryDotNet;
 using CloudinaryDotNet.Actions;
 using datingApp.Config;
 using datingApp.Interfaces;

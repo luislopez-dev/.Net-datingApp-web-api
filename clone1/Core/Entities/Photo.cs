@@ -1,4 +1,9 @@
-﻿using System.ComponentModel.DataAnnotations.Schema;
+﻿﻿/*
+ * Author: Luis López
+ * Website: https://github.com/luislopez-dev
+ * Description: Training Project
+ */
+using System.ComponentModel.DataAnnotations.Schema;
 
 namespace clone1.Core.Entities;
 

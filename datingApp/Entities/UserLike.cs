@@ -1,3 +1,8 @@
+﻿/*
+ * Author: Luis López
+ * Website: https://github.com/luislopez-dev
+ * Description: Training Project
+ */
 namespace datingApp.Entities;
 
 public class UserLike

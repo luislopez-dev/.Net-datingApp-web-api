@@ -1,4 +1,9 @@
-﻿using clone1.Core.DTOs;
+﻿﻿/*
+ * Author: Luis López
+ * Website: https://github.com/luislopez-dev
+ * Description: Training Project
+ */
+using clone1.Core.DTOs;
 using clone1.Core.Entities;
 using clone1.Core.Helpers.Pagination;
 using clone1.Core.Helpers.Pagination.Params;

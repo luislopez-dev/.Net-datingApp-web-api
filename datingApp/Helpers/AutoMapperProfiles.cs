@@ -1,4 +1,9 @@
-﻿using AutoMapper;
+﻿﻿/*
+ * Author: Luis López
+ * Website: https://github.com/luislopez-dev
+ * Description: Training Project
+ */
+using AutoMapper;
 using datingApp.Data;
 using datingApp.DTOs;
 using datingApp.Entities;

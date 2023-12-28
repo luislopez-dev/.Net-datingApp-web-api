@@ -1,4 +1,9 @@
-﻿using datingApp.Config;
+﻿﻿/*
+ * Author: Luis López
+ * Website: https://github.com/luislopez-dev
+ * Description: Training Project
+ */
+using datingApp.Config;
 using datingApp.Data;
 using datingApp.Helpers;
 using datingApp.Interfaces;

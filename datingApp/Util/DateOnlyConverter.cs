@@ -1,4 +1,9 @@
-﻿using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
+﻿﻿/*
+ * Author: Luis López
+ * Website: https://github.com/luislopez-dev
+ * Description: Training Project
+ */
+using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
 
 namespace datingApp.Util;
 

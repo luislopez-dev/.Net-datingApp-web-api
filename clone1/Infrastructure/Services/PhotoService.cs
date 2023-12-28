@@ -1,4 +1,9 @@
-﻿using clone1.Core.Config;
+﻿﻿/*
+ * Author: Luis López
+ * Website: https://github.com/luislopez-dev
+ * Description: Training Project
+ */
+using clone1.Core.Config;
 using clone1.Core.Interfaces;
 using CloudinaryDotNet;
 using CloudinaryDotNet.Actions;

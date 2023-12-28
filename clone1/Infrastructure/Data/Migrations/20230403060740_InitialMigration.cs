@@ -1,4 +1,9 @@
-﻿using System;
+﻿﻿/*
+ * Author: Luis López
+ * Website: https://github.com/luislopez-dev
+ * Description: Training Project
+ */
+using System;
 using Microsoft.EntityFrameworkCore.Migrations;
 
 #nullable disable

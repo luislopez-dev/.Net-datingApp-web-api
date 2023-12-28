@@ -1,4 +1,9 @@
-﻿namespace datingApp.Error;
+﻿﻿/*
+ * Author: Luis López
+ * Website: https://github.com/luislopez-dev
+ * Description: Training Project
+ */
+namespace datingApp.Error;
 
 public class ApiException
 {

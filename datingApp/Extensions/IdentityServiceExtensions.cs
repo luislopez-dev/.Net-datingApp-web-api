@@ -1,4 +1,9 @@
-﻿using System.Text;
+﻿﻿/*
+ * Author: Luis López
+ * Website: https://github.com/luislopez-dev
+ * Description: Training Project
+ */
+using System.Text;
 using datingApp.Data;
 using datingApp.Entities;
 using Microsoft.AspNetCore.Authentication.JwtBearer;

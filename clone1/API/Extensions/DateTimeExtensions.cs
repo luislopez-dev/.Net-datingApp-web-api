@@ -1,4 +1,9 @@
-﻿namespace clone1.API.Extensions;
+﻿﻿/*
+ * Author: Luis López
+ * Website: https://github.com/luislopez-dev
+ * Description: Training Project
+ */
+namespace clone1.API.Extensions;
 
 public static class DateTimeExtensions
 {

@@ -1,4 +1,9 @@
-﻿using System.Text.Json;
+﻿﻿/*
+ * Author: Luis López
+ * Website: https://github.com/luislopez-dev
+ * Description: Training Project
+ */
+using System.Text.Json;
 using clone1.Core.Helpers.Pagination;
 
 namespace clone1.API.Extensions;

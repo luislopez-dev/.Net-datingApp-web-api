@@ -1,4 +1,9 @@
-﻿using datingApp.DTOs;
+﻿﻿/*
+ * Author: Luis López
+ * Website: https://github.com/luislopez-dev
+ * Description: Training Project
+ */
+using datingApp.DTOs;
 using datingApp.Entities;
 using datingApp.Helpers;
 

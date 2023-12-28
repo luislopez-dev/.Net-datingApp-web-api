@@ -1,4 +1,9 @@
-﻿using clone1.Core.Helpers;
+﻿﻿/*
+ * Author: Luis López
+ * Website: https://github.com/luislopez-dev
+ * Description: Training Project
+ */
+using clone1.Core.Helpers;
 using clone1.Core.Interfaces;
 using clone1.Data;
 using clone1.Infrastructure.Data;

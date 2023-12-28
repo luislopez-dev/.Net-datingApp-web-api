@@ -1,4 +1,9 @@
-﻿using CloudinaryDotNet.Actions;
+﻿﻿/*
+ * Author: Luis López
+ * Website: https://github.com/luislopez-dev
+ * Description: Training Project
+ */
+using CloudinaryDotNet.Actions;
 
 namespace datingApp.Interfaces;
 

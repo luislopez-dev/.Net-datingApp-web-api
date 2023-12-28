@@ -1,4 +1,10 @@
-﻿using System.Net;
+﻿﻿/*
+ * Author: Luis López
+ * Website: https://github.com/luislopez-dev
+ * Description: Training Project
+ */
+ 
+using System.Net;
 using System.Text.Json;
 using datingApp.Error;
 using Microsoft.EntityFrameworkCore.Metadata.Internal;

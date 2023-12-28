@@ -1,4 +1,10 @@
-﻿using System.Runtime.CompilerServices;
+﻿﻿/*
+ * Author: Luis López
+ * Website: https://github.com/luislopez-dev
+ * Description: Training Project
+ */
+using System.Runtime.CompilerServices;
+
 using Microsoft.EntityFrameworkCore;
 
 namespace datingApp.Helpers;

@@ -1,4 +1,9 @@
-﻿using AutoMapper;
+﻿﻿/*
+ * Author: Luis López
+ * Website: https://github.com/luislopez-dev
+ * Description: Training Project
+ */
+using AutoMapper;
 using clone1.API.Extensions;
 using clone1.Core.DTOs;
 using clone1.Core.Entities;

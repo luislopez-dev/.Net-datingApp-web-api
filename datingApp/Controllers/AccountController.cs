@@ -1,4 +1,9 @@
-﻿using System.Security.Cryptography;
+﻿﻿/*
+ * Author: Luis López
+ * Website: https://github.com/luislopez-dev
+ * Description: Training Project
+ */
+using System.Security.Cryptography;
 using System.Text;
 using AutoMapper;
 using datingApp.Data;

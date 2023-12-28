@@ -1,4 +1,9 @@
-﻿namespace datingApp.Interfaces;
+﻿﻿/*
+ * Author: Luis López
+ * Website: https://github.com/luislopez-dev
+ * Description: Training Project
+ */
+namespace datingApp.Interfaces;
 
 public interface IUnitOfWork 
 {

@@ -1,3 +1,8 @@
+﻿/*
+ * Author: Luis López
+ * Website: https://github.com/luislopez-dev
+ * Description: Training Project
+ */
 namespace datingApp.DTOs
 {
     public class LikeDto

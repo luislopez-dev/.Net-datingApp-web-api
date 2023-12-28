@@ -1,4 +1,9 @@
-﻿namespace clone1.Core.Entities;
+﻿﻿/*
+ * Author: Luis López
+ * Website: https://github.com/luislopez-dev
+ * Description: Training Project
+ */
+namespace clone1.Core.Entities;
 
 public class UserLike
 {

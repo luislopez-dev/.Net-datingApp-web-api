@@ -1,4 +1,9 @@
-﻿using System.Text;
+﻿﻿/*
+ * Author: Luis López
+ * Website: https://github.com/luislopez-dev
+ * Description: Training Project
+ */
+using System.Text;
 using clone1.Core.Entities;
 using clone1.Data;
 using clone1.Infrastructure.Data;

@@ -1,4 +1,10 @@
-﻿using System.IdentityModel.Tokens.Jwt;
+﻿﻿/*
+ * Author: Luis López
+ * Website: https://github.com/luislopez-dev
+ * Description: Training Project
+ */
+ 
+using System.IdentityModel.Tokens.Jwt;
 using System.Security.Claims;
 using System.Text;
 using datingApp.Entities;

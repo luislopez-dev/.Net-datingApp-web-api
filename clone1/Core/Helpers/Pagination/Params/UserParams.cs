@@ -1,4 +1,9 @@
-﻿namespace clone1.Core.Helpers.Pagination.Params;
+﻿﻿/*
+ * Author: Luis López
+ * Website: https://github.com/luislopez-dev
+ * Description: Training Project
+ */
+namespace clone1.Core.Helpers.Pagination.Params;
 
 public class UserParams  : PaginationParams
 {

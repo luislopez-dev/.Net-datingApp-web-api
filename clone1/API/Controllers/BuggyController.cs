@@ -1,4 +1,9 @@
-﻿using clone1.Core.Entities;
+﻿﻿/*
+ * Author: Luis López
+ * Website: https://github.com/luislopez-dev
+ * Description: Training Project
+ */
+using clone1.Core.Entities;
 using clone1.Data;
 using clone1.Infrastructure.Data;
 using Microsoft.AspNetCore.Authorization;

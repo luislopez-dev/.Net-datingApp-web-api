@@ -1,4 +1,9 @@
-﻿using clone1.Infrastructure.Repositories;
+﻿﻿/*
+ * Author: Luis López
+ * Website: https://github.com/luislopez-dev
+ * Description: Training Project
+ */
+using clone1.Infrastructure.Repositories;
 
 namespace clone1.Core.Interfaces;
 

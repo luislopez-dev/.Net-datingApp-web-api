@@ -1,4 +1,9 @@
-﻿namespace clone1.Core.Error;
+﻿﻿/*
+ * Author: Luis López
+ * Website: https://github.com/luislopez-dev
+ * Description: Training Project
+ */
+namespace clone1.Core.Error;
 
 public class ApiException
 {

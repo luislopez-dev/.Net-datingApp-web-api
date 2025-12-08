@@ -1,9 +1,4 @@
-﻿﻿/*
- * Author: Luis López
- * Website: https://github.com/luislopez-dev
- * Description: Training Project
- */
-using datingApp.Entities;
+﻿﻿using datingApp.Entities;
 using Microsoft.AspNetCore.Identity;
 using Microsoft.AspNetCore.Identity.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore;
@@ -11,6 +6,13 @@ using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
 
 namespace datingApp.Data;
 
+/// <summary>
+/// </summary>
+/// <remarks>
+/// Author: Luis López  
+/// GitHub: https://github.com/luislopez-dev
+/// Description: Training Project
+/// </remarks>
 public class DataContext : IdentityDbContext<AppUser, AppRole, int, IdentityUserClaim<int>, 
 AppUserRole, IdentityUserLogin<int>, IdentityRoleClaim<int>, IdentityUserToken<int>>
 {

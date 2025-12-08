@@ -1,9 +1,4 @@
-﻿﻿/*
- * Author: Luis López
- * Website: https://github.com/luislopez-dev
- * Description: Training Project
- */
-using System.IdentityModel.Tokens.Jwt;
+﻿﻿using System.IdentityModel.Tokens.Jwt;
 using System.Security.Claims;
 using System.Text;
 using clone1.Core.Entities;
@@ -14,6 +9,13 @@ using JwtRegisteredClaimNames = Microsoft.IdentityModel.JsonWebTokens.JwtRegiste
 
 namespace clone1.Infrastructure.Services;
 
+/// <summary>
+/// </summary>
+/// <remarks>
+/// Author: Luis López  
+/// GitHub: https://github.com/luislopez-dev
+/// Description: Training Project
+/// </remarks>
 public class TokenService : ITokenService
 {
     private readonly SymmetricSecurityKey _key;

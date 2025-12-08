@@ -1,14 +1,17 @@
-﻿﻿/*
- * Author: Luis López
- * Website: https://github.com/luislopez-dev
- * Description: Training Project
- */
+﻿﻿
 using System.Runtime.CompilerServices;
 
 using Microsoft.EntityFrameworkCore;
 
 namespace datingApp.Helpers;
 
+/// <summary>
+/// </summary>
+/// <remarks>
+/// Author: Luis López  
+/// GitHub: https://github.com/luislopez-dev
+/// Description: Training Project
+/// </remarks>
 public class PagedList<T>: List<T>
 {
     public int CurrentPage { get; set; }

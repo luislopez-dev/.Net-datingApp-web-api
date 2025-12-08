@@ -1,9 +1,4 @@
-﻿/*
- * Author: Luis López
- * Website: https://github.com/luislopez-dev
- * Description: Training Project
- */
-using datingApp.DTOs;
+﻿using datingApp.DTOs;
 using datingApp.Entities;
 using datingApp.Extensions;
 using datingApp.Helpers;
@@ -12,6 +7,13 @@ using Microsoft.EntityFrameworkCore;
 
 namespace datingApp.Data
 {
+    /// <summary>
+    /// </summary>
+    /// <remarks>
+    /// Author: Luis López  
+    /// GitHub: https://github.com/luislopez-dev
+    /// Description: Training Project
+    /// </remarks>
     public class LikesRepository : ILikesRepository
     {
         private readonly DataContext _context;

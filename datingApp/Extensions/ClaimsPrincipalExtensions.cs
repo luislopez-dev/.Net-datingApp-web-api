@@ -1,12 +1,15 @@
-﻿﻿/*
- * Author: Luis López
- * Website: https://github.com/luislopez-dev
- * Description: Training Project
- */
+﻿﻿
 using System.Security.Claims;
 
 namespace datingApp.Extensions;
 
+/// <summary>
+/// </summary>
+/// <remarks>
+/// Author: Luis López  
+/// GitHub: https://github.com/luislopez-dev
+/// Description: Training Project
+/// </remarks>
 public static class ClaimsPrincipalExtensions
 {
     public static string GetUsername(this ClaimsPrincipal user)

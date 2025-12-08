@@ -1,12 +1,15 @@
-﻿﻿/*
- * Author: Luis López
- * Website: https://github.com/luislopez-dev
- * Description: Training Project
- */
+﻿﻿
 using System.ComponentModel.DataAnnotations.Schema;
 
 namespace datingApp.Entities;
 
+/// <summary>
+/// </summary>
+/// <remarks>
+/// Author: Luis López  
+/// GitHub: https://github.com/luislopez-dev
+/// Description: Training Project
+/// </remarks>
 [Table("photos")]
 public class Photo
 {

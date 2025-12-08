@@ -1,9 +1,4 @@
-﻿﻿/*
- * Author: Luis López
- * Website: https://github.com/luislopez-dev
- * Description: Training Project
- */
-using clone1.Core.Config;
+﻿﻿using clone1.Core.Config;
 using clone1.Core.Interfaces;
 using CloudinaryDotNet;
 using CloudinaryDotNet.Actions;
@@ -11,6 +6,14 @@ using Microsoft.Extensions.Options;
 
 namespace clone1.Infrastructure.Services;
 
+
+/// <summary>
+/// </summary>
+/// <remarks>
+/// Author: Luis López  
+/// GitHub: https://github.com/luislopez-dev
+/// Description: Training Project
+/// </remarks>
 public class PhotoService : IPhotoService
 {
     private readonly Cloudinary _cloudinary;

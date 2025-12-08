@@ -1,14 +1,16 @@
-﻿﻿/*
- * Author: Luis López
- * Website: https://github.com/luislopez-dev
- * Description: Training Project
- */
-using datingApp.Data;
+﻿﻿using datingApp.Data;
 using datingApp.DTOs;
 using datingApp.Helpers;
 
 namespace datingApp.Interfaces;
 
+/// <summary>
+/// </summary>
+/// <remarks>
+/// Author: Luis López  
+/// GitHub: https://github.com/luislopez-dev
+/// Description: Training Project
+/// </remarks>
 public interface IMessageRepository
 {
     public void AddMessage(Message message);

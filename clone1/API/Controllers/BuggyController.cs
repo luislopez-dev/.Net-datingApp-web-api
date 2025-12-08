@@ -1,9 +1,4 @@
-﻿﻿/*
- * Author: Luis López
- * Website: https://github.com/luislopez-dev
- * Description: Training Project
- */
-using clone1.Core.Entities;
+﻿﻿using clone1.Core.Entities;
 using clone1.Data;
 using clone1.Infrastructure.Data;
 using Microsoft.AspNetCore.Authorization;
@@ -11,6 +6,14 @@ using Microsoft.AspNetCore.Mvc;
 
 namespace clone1.API.Controllers;
 
+
+/// <summary>
+/// </summary>
+/// <remarks>
+/// Author: Luis López  
+/// GitHub: https://github.com/luislopez-dev
+/// Description: Training Project
+/// </remarks>
 public class BuggyController : BaseApiController
 {
     private readonly DataContext _dataContext;

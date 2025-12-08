@@ -1,9 +1,4 @@
-﻿﻿/*
- * Author: Luis López
- * Website: https://github.com/luislopez-dev
- * Description: Training Project
- */
- 
+﻿﻿
 using System.Net;
 using System.Text.Json;
 using datingApp.Error;
@@ -11,6 +6,13 @@ using Microsoft.EntityFrameworkCore.Metadata.Internal;
 
 namespace datingApp.Middleware;
 
+/// <summary>
+/// </summary>
+/// <remarks>
+/// Author: Luis López  
+/// GitHub: https://github.com/luislopez-dev
+/// Description: Training Project
+/// </remarks>
 public class ExceptionMiddleware
 {
     private readonly RequestDelegate _next;

@@ -1,8 +1,4 @@
-﻿﻿/*
- * Author: Luis López
- * Website: https://github.com/luislopez-dev
- * Description: Training Project
- */
+﻿﻿
 using System.Text;
 using datingApp.Data;
 using datingApp.Entities;
@@ -12,6 +8,13 @@ using Microsoft.IdentityModel.Tokens;
 
 namespace datingApp.Extensions;
 
+/// <summary>
+/// </summary>
+/// <remarks>
+/// Author: Luis López  
+/// GitHub: https://github.com/luislopez-dev
+/// Description: Training Project
+/// </remarks>
 public static class IdentityServiceExtensions
 {
     public static IServiceCollection AddIdentityServices(this IServiceCollection services, 

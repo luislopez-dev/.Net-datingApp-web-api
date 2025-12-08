@@ -1,9 +1,4 @@
-﻿﻿/*
- * Author: Luis López
- * Website: https://github.com/luislopez-dev
- * Description: Training Project
- */
-using clone1.Core.Entities;
+﻿﻿using clone1.Core.Entities;
 using clone1.Core.Helpers;
 using Microsoft.AspNetCore.Identity;
 using Microsoft.AspNetCore.Identity.EntityFrameworkCore;
@@ -11,6 +6,14 @@ using Microsoft.EntityFrameworkCore;
 
 namespace clone1.Infrastructure.Data;
 
+
+/// <summary>
+/// </summary>
+/// <remarks>
+/// Author: Luis López  
+/// GitHub: https://github.com/luislopez-dev
+/// Description: Training Project
+/// </remarks>
 public class DataContext : IdentityDbContext <AppUser, AppRole, int, 
     IdentityUserClaim<int>, AppUserRole, IdentityUserLogin<int>, 
     IdentityRoleClaim<int>, IdentityUserToken<int>>

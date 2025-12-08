@@ -1,12 +1,15 @@
-﻿﻿/*
- * Author: Luis López
- * Website: https://github.com/luislopez-dev
- * Description: Training Project
- */
-using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
+﻿﻿using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
 
 namespace clone1.Core.Helpers;
 
+
+/// <summary>
+/// </summary>
+/// <remarks>
+/// Author: Luis López  
+/// GitHub: https://github.com/luislopez-dev
+/// Description: Training Project
+/// </remarks>
 public class DateOnlyConverter : ValueConverter<DateOnly, DateTime>
 {
     /// <summary>

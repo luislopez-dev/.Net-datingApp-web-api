@@ -1,9 +1,4 @@
-﻿﻿/*
- * Author: Luis López
- * Website: https://github.com/luislopez-dev
- * Description: Training Project
- */
-using System.Security.Cryptography;
+﻿﻿using System.Security.Cryptography;
 using System.Text;
 using AutoMapper;
 using datingApp.Data;
@@ -16,6 +11,13 @@ using Microsoft.EntityFrameworkCore;
 
 namespace datingApp.Controllers;
 
+/// <summary>
+/// </summary>
+/// <remarks>
+/// Author: Luis López  
+/// GitHub: https://github.com/luislopez-dev
+/// Description: Training Project
+/// </remarks>
 public class AccountController : BaseApiController
 {
     private readonly DataContext _dataContext;

@@ -1,8 +1,4 @@
-﻿﻿/*
- * Author: Luis López
- * Website: https://github.com/luislopez-dev
- * Description: Training Project
- */
+﻿﻿
 using AutoMapper;
 using AutoMapper.QueryableExtensions;
 using datingApp.DTOs;
@@ -13,6 +9,13 @@ using Microsoft.EntityFrameworkCore;
 
 namespace datingApp.Data;
 
+/// <summary>
+/// </summary>
+/// <remarks>
+/// Author: Luis López  
+/// GitHub: https://github.com/luislopez-dev
+/// Description: Training Project
+/// </remarks>
 public class UserRepository : IUserRepository
 {
     private readonly DataContext _context;

@@ -1,9 +1,4 @@
-﻿﻿/*
- * Author: Luis López
- * Website: https://github.com/luislopez-dev
- * Description: Training Project
- */
- 
+﻿﻿
 using CloudinaryDotNet;
 using CloudinaryDotNet.Actions;
 using datingApp.Config;
@@ -12,6 +7,13 @@ using Microsoft.Extensions.Options;
 
 namespace datingApp.Services;
 
+/// <summary>
+/// </summary>
+/// <remarks>
+/// Author: Luis López  
+/// GitHub: https://github.com/luislopez-dev
+/// Description: Training Project
+/// </remarks>
 public class PhotoService : IPhotoService
 {
     private readonly Cloudinary _cloudinary;

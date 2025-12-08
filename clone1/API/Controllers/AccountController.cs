@@ -1,9 +1,4 @@
-﻿﻿/*
- * Author: Luis López
- * Website: https://github.com/luislopez-dev
- * Description: Training Project
- */
-using AutoMapper;
+﻿﻿using AutoMapper;
 using clone1.Core.DTOs;
 using clone1.Core.Entities;
 using clone1.Core.Interfaces;
@@ -13,6 +8,13 @@ using Microsoft.EntityFrameworkCore;
 
 namespace clone1.API.Controllers;
 
+/// <summary>
+/// </summary>
+/// <remarks>
+/// Author: Luis López  
+/// GitHub: https://github.com/luislopez-dev
+/// Description: Training Project
+/// </remarks>
 public class AccountController : BaseApiController
 {
     private readonly ITokenService _tokenService;

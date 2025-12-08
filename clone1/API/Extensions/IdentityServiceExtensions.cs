@@ -1,9 +1,4 @@
-﻿﻿/*
- * Author: Luis López
- * Website: https://github.com/luislopez-dev
- * Description: Training Project
- */
-using System.Text;
+﻿﻿using System.Text;
 using clone1.Core.Entities;
 using clone1.Data;
 using clone1.Infrastructure.Data;
@@ -13,6 +8,14 @@ using Microsoft.IdentityModel.Tokens;
 
 namespace clone1.API.Extensions;
 
+
+/// <summary>
+/// </summary>
+/// <remarks>
+/// Author: Luis López  
+/// GitHub: https://github.com/luislopez-dev
+/// Description: Training Project
+/// </remarks>
 public static class IdentityServiceExtensions
 {
     public static IServiceCollection AddIdentityServices(this IServiceCollection services,

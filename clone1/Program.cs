@@ -1,3 +1,9 @@
+/*
+ * Author: Luis López
+ * Website: https://github.com/luislopez-dev
+ * Description: Training Project
+ */
+ 
 using clone1.API.Extensions;
 using clone1.API.Middleware;
 using clone1.Core.Entities;

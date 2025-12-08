@@ -1,8 +1,4 @@
-﻿﻿/*
- * Author: Luis López
- * Website: https://github.com/luislopez-dev
- * Description: Training Project
- */
+﻿﻿
 using datingApp.Data;
 using datingApp.Extensions;
 using Microsoft.AspNetCore.Identity;
@@ -10,6 +6,13 @@ using Newtonsoft.Json;
 
 namespace datingApp.Entities;
 
+/// <summary>
+/// </summary>
+/// <remarks>
+/// Author: Luis López  
+/// GitHub: https://github.com/luislopez-dev
+/// Description: Training Project
+/// </remarks>
 public class AppUser : IdentityUser<int>
 {
     [JsonConverter(typeof(DateOnlyJsonConverterExtension))]

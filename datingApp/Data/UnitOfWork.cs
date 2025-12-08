@@ -3,6 +3,13 @@ using datingApp.Interfaces;
 
 namespace datingApp.Data;
 
+/// <summary>
+/// </summary>
+/// <remarks>
+/// Author: Luis López  
+/// GitHub: https://github.com/luislopez-dev
+/// Description: Training Project
+/// </remarks>
 public class UnitOfWork : IUnitOfWork
 {
     private readonly DataContext _context;

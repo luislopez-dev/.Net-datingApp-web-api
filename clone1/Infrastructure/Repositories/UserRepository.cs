@@ -1,9 +1,4 @@
-﻿﻿/*
- * Author: Luis López
- * Website: https://github.com/luislopez-dev
- * Description: Training Project
- */
-using AutoMapper;
+﻿﻿using AutoMapper;
 using AutoMapper.QueryableExtensions;
 using clone1.Core.DTOs;
 using clone1.Core.Entities;
@@ -16,6 +11,14 @@ using Microsoft.EntityFrameworkCore;
 
 namespace clone1.Infrastructure.Repositories;
 
+
+/// <summary>
+/// </summary>
+/// <remarks>
+/// Author: Luis López  
+/// GitHub: https://github.com/luislopez-dev
+/// Description: Training Project
+/// </remarks>
 public class UserRepository : IUserRepository
 {
     private readonly IMapper _mapper;

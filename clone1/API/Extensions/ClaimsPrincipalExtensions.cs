@@ -1,12 +1,14 @@
-﻿﻿/*
- * Author: Luis López
- * Website: https://github.com/luislopez-dev
- * Description: Training Project
- */
-using System.Security.Claims;
+﻿﻿using System.Security.Claims;
 
 namespace clone1.API.Extensions;
 
+/// <summary>
+/// </summary>
+/// <remarks>
+/// Author: Luis López  
+/// GitHub: https://github.com/luislopez-dev
+/// Description: Training Project
+/// </remarks>
 public static class ClaimsPrincipalExtensions
 {
     public static string GetUserName(this ClaimsPrincipal user)

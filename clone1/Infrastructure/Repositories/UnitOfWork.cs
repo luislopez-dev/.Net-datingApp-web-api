@@ -1,15 +1,18 @@
-﻿﻿/*
- * Author: Luis López
- * Website: https://github.com/luislopez-dev
- * Description: Training Project
- */
-using AutoMapper;
+﻿﻿using AutoMapper;
 using clone1.Core.Interfaces;
 using clone1.Data;
 using clone1.Infrastructure.Data;
 
 namespace clone1.Infrastructure.Repositories;
 
+
+/// <summary>
+/// </summary>
+/// <remarks>
+/// Author: Luis López  
+/// GitHub: https://github.com/luislopez-dev
+/// Description: Training Project
+/// </remarks>
 public class UnitOfWork : IUnitOfWork
 {
     private readonly IMapper _mapper;

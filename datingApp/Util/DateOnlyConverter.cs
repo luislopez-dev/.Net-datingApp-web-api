@@ -1,12 +1,13 @@
-﻿﻿/*
- * Author: Luis López
- * Website: https://github.com/luislopez-dev
- * Description: Training Project
- */
+﻿﻿
 using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
 
 namespace datingApp.Util;
 
+/// <remarks>
+/// Author: Luis López  
+/// GitHub: https://github.com/luislopez-dev
+/// Description: Training Project
+/// </remarks>
 /// <summary>
 /// Converts <see cref="DateOnly" /> to <see cref="DateTime"/> and vice versa.
 /// </summary>

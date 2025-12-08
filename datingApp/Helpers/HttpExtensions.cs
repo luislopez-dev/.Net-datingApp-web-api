@@ -1,12 +1,15 @@
-﻿﻿/*
- * Author: Luis López
- * Website: https://github.com/luislopez-dev
- * Description: Training Project
- */
+﻿﻿
 using System.Text.Json;
 
 namespace datingApp.Helpers;
 
+/// <summary>
+/// </summary>
+/// <remarks>
+/// Author: Luis López  
+/// GitHub: https://github.com/luislopez-dev
+/// Description: Training Project
+/// </remarks>
 public static class HttpExtensions
 {
     public static void AddPaginationHeader(this HttpResponse response, PaginationHeader header)
